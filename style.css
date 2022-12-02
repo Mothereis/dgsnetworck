@@ -50,7 +50,7 @@ a {
     top: 0;
     justify-content: space-around;
     align-items: center;
-    height: 70px;
+    height: 60px;
     background-color: #0f0f0f;
     color: #f0f0f0;
 }
@@ -200,7 +200,7 @@ nav a.a:hover::after{
     scroll-snap-align: start;
   
     /* visual styling */
-    width: 350px;
+    width: 330px;
     height: 500px;
     flex-shrink: 0;
     border-radius: 5px;
