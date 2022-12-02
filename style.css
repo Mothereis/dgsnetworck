@@ -14,6 +14,114 @@
     transition: .3s;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  /* Card */
+  .card {
+    width: 300px;
+    height: 510px;
+    margin: 25px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    transition: 0.3s;
+  }
+  
+  /* Card Header*/
+  .card-header {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .card-img {
+    min-width: 100%;
+    width: auto;
+    height: 85%;
+  }
+  
+  /* Card Body */
+  .card-body {
+    height: 250px;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .card-local {
+    font-size: 30px;
+    margin: 1px 0;
+  }
+  
+  .card-titulo {
+    font-size: 10px;
+    margin: 2px 0;
+  }
+  
+  .card-texto {
+    font-size: 12px;
+    width: 250px;
+    margin: 0 auto;
+  }
+  
+  /* Card Footer */
+  .card-footer {
+    margin-top: 10px;
+    text-align: center;
+    background-color: #000;
+  }
+  
+  .card-footer a {
+    color: #fff;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  
+  /* Cores Cards */
+  .card-1 .card-footer {
+    background-color: #2740d1;
+  }
+  
+  .card-1 .card-local {
+    color: #2740d1;
+  }
+  
+  .card-2 .card-footer {
+    background-color: #d12761;
+  }
+  
+  .card-2 .card-local {
+    color: #d12761;
+  }
+  
+  .card-3 .card-footer {
+    background-color: #00c702;
+  }
+  
+  .card-3 .card-local {
+    color: #00c702;
+  }
+  
+  /* Animação Hover */
+  .card:hover {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+  
+
 ::-webkit-scrollbar {
     width: 10px;
     background-color: #0f0f0f;
@@ -50,7 +158,7 @@ a {
     top: 0;
     justify-content: space-around;
     align-items: center;
-    height: 60px;
+    height: 40px;
     background-color: #0f0f0f;
     color: #f0f0f0;
 }
@@ -203,7 +311,7 @@ nav a.a:hover::after{
     width: 330px;
     height: 500px;
     flex-shrink: 0;
-    border-radius: 5px;
+    border-radius: 30px;
     background: #65aff5;
   }
   .vpn-icon {
@@ -244,6 +352,8 @@ button:hover {
     animation: fa-bounce 1s;
 }
 
+
+
 /* FOOTER */
 
 #footer {
@@ -274,15 +384,15 @@ button:hover {
 .dropbtn {
     background-color: #4CAF50;
     color: white;
-    padding: 16px;
-    font-size: 16px;
+    padding: 5px;
+    font-size: 12px;
     border: none;
     cursor: pointer;
   }
   
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
-    position: relative;
+    position: static;
     display: inline-block;
   }
   
