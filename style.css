@@ -280,6 +280,19 @@ nav a.a:hover::after{
     font-weight: 700;
 }
 
+hr {
+  
+	border-top: 5px solid #ffffff;
+}
+  
+
+.becdive-1-color{
+  max-width: fit-content;
+  display: block;
+  padding: 80px;
+  background-color: #081147;
+}
+
 #main {
     background-color: #433b6b;
 }
